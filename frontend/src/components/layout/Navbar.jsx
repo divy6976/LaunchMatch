@@ -3,17 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../../context/AuthContext'
 import { useTheme } from '../../context/ThemeContext'
-import { 
-  Menu, 
-  X, 
-  Sun, 
-  Moon, 
-  User, 
-  LogOut, 
-  Plus,
-  Home,
-  Building2
-} from 'lucide-react'
+import { Menu, X, Sun, Moon, User, LogOut, Plus, Hop as Home, Building2 } from 'lucide-react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)

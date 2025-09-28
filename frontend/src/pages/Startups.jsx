@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Search, Filter, Building2, MessageSquare } from 'lucide-react'
+import { Search, ListFilter as Filter, Building2, MessageSquare } from 'lucide-react'
 import { api } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 
